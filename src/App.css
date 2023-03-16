@@ -1,0 +1,39 @@
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: calc(100vh - 140px);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(43, 3, 68);
+    list-style-type: none;
+    height: 70px;
+}
+
+.nav li {
+    margin-right: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+
+.active {
+    font-weight: 600;
+    color: #0c7815;
+}
+
+footer {
+    height: 70px;
+    background-color: rgb(43, 3, 68);
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
